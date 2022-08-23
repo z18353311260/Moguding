@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run sign
         env: 
-            Phone: ${{ secrets.Phone }}
-            Password: ${{ secrets.Password }}
-            Address: ${{ secrets.Address }}
+            Phone: ${{ 18353311260 }}
+            Password: ${{ Zz201314 }}
+            Address: ${{ 山东省淄博市开发区高科技创业园D座801 }}
         run: python3 ./Run.py -s END
